@@ -1,0 +1,21 @@
+{
+  "name": "heroesapi",
+  "version": "1.0.0",
+  "description": "Restful node api for Heroes portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priyanka Kavade",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6"
+  }
+}
